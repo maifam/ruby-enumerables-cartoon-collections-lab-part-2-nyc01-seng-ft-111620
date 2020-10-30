@@ -13,6 +13,7 @@ def summon_captain_planet(planeteer_calls)
   
   planeteer_calls.map do |planeteer| 
     planeteer.capitalize + "!"
+  end 
 end
 
 def long_planeteer_calls(planeteer_calls)
@@ -25,6 +26,7 @@ def long_planeteer_calls(planeteer_calls)
     else 
       return false 
     end 
+  end 
 end
 
 def find_valid_calls(planeteer_calls)
@@ -37,4 +39,4 @@ def find_valid_calls(planeteer_calls)
       return nil 
     end 
   end 
-end
+end 
